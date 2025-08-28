@@ -7,7 +7,7 @@ module DefaultPageContent
 
     def set_page_defaults
             @page_title ="Blog Portfolio | My Portfolio Blog" 
-            @seo_keywords ="Haris Ali Portfolio"
+            @seo_keywords ="MEERAN Portfolio"
     end
 end
 

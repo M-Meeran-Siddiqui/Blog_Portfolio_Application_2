@@ -13,7 +13,7 @@ class ApplicationController < ActionController::Base
   before_action :set_copyright
   
   def set_copyright
-    @copyright= PortfolioViewTool::Renderer.copyright 'Haris Ali', 'All rights reserved'
+    @copyright= PortfolioViewTool::Renderer.copyright 'MEERAN', 'All rights reserved'
   end
   
 end
