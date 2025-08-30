@@ -1,7 +1,7 @@
 <div class="col-md-4 mb-3 portfolio-item" data-id="<%= portfolio.id %>">
   <div class="card mb-4 shadow-sm">
     
-     <%= image_tag portfolio.thumb_image.url, class: "bd-placeholder-img card-img-top", alt: portfolio.title %>
+<%= image_tag(portfolio_img(portfolio.thumb_image.url, 'thumb'), class: "bd-placeholder-img card-img-top", alt: portfolio.title) %>
 
 
     <div class="card-body">
