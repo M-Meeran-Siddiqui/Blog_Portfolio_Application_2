@@ -36,3 +36,6 @@ Rails.application.routes.draw do
   post 'portfolios/sort', to: 'portfolios#sort'
   
 end
+
+
+

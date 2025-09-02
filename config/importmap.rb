@@ -1,10 +1,12 @@
-# Pin npm packages by running ./bin/importmap
-
 pin "application"
 pin "@hotwired/turbo-rails", to: "turbo.min.js"
 pin "@hotwired/stimulus", to: "stimulus.min.js"
 pin "@hotwired/stimulus-loading", to: "stimulus-loading.js"
 pin_all_from "app/javascript/controllers", under: "controllers"
-pin "@rails/ujs", to: "@rails--ujs.js" # @7.1.3
+pin "@rails/ujs", to: "@rails--ujs.js"
+# pin "@rails/ujs", to: "https://ga.jspm.io/npm:@rails/ujs@7.1.3/lib/assets/compiled/rails-ujs.js"
 pin "jquery", to: "https://ga.jspm.io/npm:jquery@3.6.0/dist/jquery.js"
 pin "jquery-ui", to: "https://ga.jspm.io/npm:jquery-ui-dist@1.13.2/jquery-ui.js"
+pin "cocoon", to: "https://cdn.jsdelivr.net/npm/cocoon-js@1.2.14/cocoon.min.js"
+pin "portfolio", to: "portfolio.js"
+pin "html5sortable", to: "html5sortable.js"

@@ -1,4 +1,5 @@
 module ApplicationHelper
+  # include Cocoon::ViewHelpers
   def login_helper style = ''
     if current_user.is_a?(GuestUser)
       safe_join(
