@@ -26,9 +26,29 @@
 </head>
 <body class="d-flex h-100 text-center text-white bg-dark">
 
+  
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="mb-auto">
       <div class="d-flex justify-content-between align-items-center">
+        <%# below is the background image %>
+        <%# <div id="background"> </div> %>
+        
+        <%# below is the background video %>
+        
+        <%= video_tag(
+          "background.mp4",
+          id: 'background',
+          autoplay: true,
+          loop: true,
+          muted: true,
+          preload: "auto",
+          poster: 'image.png',
+          height: "70%",
+          width: "70%",
+        ) %>
+
+        <%# <div class="video-overlay"></div> %>
+
         <h3 class="float-md-start mb-0 text-white">MEERAN</h3>
         <%= render "shared/nav", location: 'top' %>
       </div>
@@ -41,7 +61,7 @@
     </main>
 
     <footer class="mt-auto text-white-50">
-      <p><%= @copyright %></p>
+      <p class="app-footer"><%= @copyright %></p>
     </footer>
   </div>
 
@@ -53,8 +73,10 @@
     crossorigin="anonymous"
   ></script>
 
+
   <%= javascript_include_tag "html5sortable" %>
   <%= javascript_include_tag "portfolio" %>
-
+  
+  
 </body>
 </html>
