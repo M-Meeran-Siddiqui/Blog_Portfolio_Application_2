@@ -203,6 +203,8 @@ GEM
     nio4r (2.7.4)
     nokogiri (1.18.9-x64-mingw-ucrt)
       racc (~> 1.4)
+    nokogiri (1.18.9-x86_64-linux-gnu)
+      racc (~> 1.4)
     orm_adapter (0.5.0)
     ostruct (0.6.3)
     parallel (1.27.0)
@@ -212,6 +214,7 @@ GEM
     petergate (3.0.1)
       activerecord (> 4.0.0)
     pg (1.6.1-x64-mingw-ucrt)
+    pg (1.6.1-x86_64-linux)
     pp (0.6.2)
       prettyprint
     prettyprint (0.2.0)
@@ -230,7 +233,7 @@ GEM
       date
       stringio
     public_suffix (6.0.2)
-    puma (6.6.1)
+    puma (7.0.0)
       nio4r (~> 2.0)
     raabro (1.4.0)
     racc (1.8.1)
@@ -345,6 +348,7 @@ GEM
     stringio (3.1.7)
     thor (1.4.0)
     thruster (0.1.15)
+    thruster (0.1.15-x86_64-linux)
     timeout (0.4.3)
     turbo-rails (2.0.16)
       actionpack (>= 7.1.0)
@@ -374,6 +378,7 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
